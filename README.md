@@ -44,3 +44,5 @@ https://medium.com/@tomdeore/facenet-architecture-part-1-a062d5d918a1
 1. Create a directory /tmp/upload :: `mkdir /tmp/upload`
 2. Run app.py :: `python app.py`. this is flask app, which gives two endpoints, _register and predict_. Register atleast one user before starting the prediction job. `endpoint:: http://localhost:5001/register`
 3. Run Presentation.ipynb in jupyter version 1.0+ execute all cells in sequence. PS: Last code block runs an infinite loop (while True) which will bring up an camera sreen where you can see predictions.
+
+You can use `TakePhoto.ipynb` to take the photo using the in-built camera.
